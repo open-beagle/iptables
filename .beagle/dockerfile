@@ -10,4 +10,4 @@ LABEL maintainer=$AUTHOR version=$VERSION
 ARG TARGETOS
 ARG TARGETARCH
 
-COPY ./.dist/${TARGETARCH}/usr/local /iptables/usr/
+COPY ./.dist/${TARGETARCH} /iptables/usr/
